@@ -12,7 +12,7 @@ PAGES = {
     "Play Slope": "Slither",
     "Play Granny": "geo",
     "Play A Small World Cup": "cup",
-    "Play Soccer Skills World Cuo": "soccer2",
+    "Play Soccer Skills World Cup": "soccer2",
     "Play Soccer Skills Euro Cup": "soccer",
     "Play Escape Road": "level",
     "Play Level Devil": "trial",
@@ -23,6 +23,7 @@ PAGES = {
     "Play Getaway Shootout": "get",
     "Play 1v1 LOL": "lol",
     "Play Uno": "uno",
+    "Play Cluster Rush": "cluster",
     "Mathway(for help with math)": "math",
     "Studentontask unblocker":"student",
     "Information": "info",
@@ -89,12 +90,15 @@ def main():
         mad()
     elif st.session_state.page == "student":
         student()
+    elif st.session_state.page == "cluster":
+        play_cluster()
 
 def home():
     st.title("Welcome to CR7 Games! (Suuuuui!!!)")
-    st.header("Shoutout to Sailesh")
-    st.subheader('Message from Sailesh: Sujay not sigma')
+    st.header("Shoutout to Byteme")
+    st.subheader('Message from Byteme: "Miracles are statistical improbabilities. And fate is an illusion humanity uses to comfort itself in the dark. There are no absolutes in life, save death.” - Amie Kaufman')
     st.subheader("if you want a shoutout tell me in live chat during 1st & 3rd period (you can also put a custom message)")
+    st.subheader("my bad I put the wrong instructions so look at it again (instead of control I put windows)")
    # st.image(r, width=300)
     st.write("Before you start using the website read the notes in the information tab for information on how to use the website")
     st.write("Click the button below to open proxy!")
@@ -469,6 +473,24 @@ def play_uno():
     if st.button('Back to Home'):
         st.session_state.page = 'home'
 
+def play_cluster():
+    st.title('Play Cluster Rush')
+
+    # URL of the game or webpage you want to embed
+    game_url = 'https://wdhmtl-8080.csb.app/service/hvtrs8%2F-cnuqtgrpuqh%2Cim%2F/'
+
+    # HTML code to embed the game in an iframe with fullscreen option
+    iframe_code = f'''
+    <iframe src="{game_url}" width="100%" height="800px" style="border:none;" allowfullscreen></iframe>
+    '''
+
+    # Render the iframe in the Streamlit app
+    components.html(iframe_code, height=800)
+
+    # Button to go back to the home page
+    if st.button('Back to Home'):
+        st.session_state.page = 'home'
+
 def math():
     st.title("Mathway")
     # URL of the game or webpage you want to embed
@@ -489,7 +511,7 @@ def math():
 def student():
     st.title("Studentontask Unblocker")
     st.write("Credits: byteme")
-    st.write("click and hold windows, then shift then b so that it reveal the bookmark thing under your url you should see this. If you already have this don't worry about it. Then highlight the the code below by click and hold the last letter in the code then drag it till you reach the first letter. Then after you highlight the code click it and drag it your bookmark thing under your url. Then when you get blocked or studentontasked just click on the bookmark you saved")
+    st.write("click and hold control, then shift then b so that it reveal the bookmark thing under your url you should see this. If you already have this don't worry about it. Then highlight the the code below by click and hold the last letter in the code then drag it till you reach the first letter. Then after you highlight the code click it and drag it your bookmark thing under your url. Then when you get blocked or studentontasked just click on the bookmark you saved")
     st.text("""
 javascript:fetch("https://raw.githubusercontent.com/Loading123747/studentontask/refs/heads/main/link").then((byst) => {
     byst.text().then((src) => {
