@@ -167,7 +167,7 @@ def play_Wing():
     st.title('Play Basketball Stars')
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://5vs4st-8080.csb.app/service/hvtrs8%2F-bcsievbclnsvaps%2Fgcmg.ko-/'
+    game_url = 'https://cr7games-first-heroku-site-16f8afd060a4.herokuapp.com/service/hvtrs8%2F-bcsievbclnsvaps%2Fgcmg.ko-/'
 
     # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
@@ -205,6 +205,7 @@ def play_geo():
     #Greatsword
     st.title('Play Granny')
     st.write("Click the England flag for english then click play")
+    st.write("use this link while I try to fix the mouse locking problem: https://5vs4st-8080.csb.app/service/hvtrs8%2F-gpaln%7B-eaoeq.aoo%2F/ ")
 
     # URL of the game or webpage you want to embed
     game_url = 'https://5vs4st-8080.csb.app/service/hvtrs8%2F-gpaln%7B-eaoeq.aoo%2F/'
