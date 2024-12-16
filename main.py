@@ -98,8 +98,8 @@ def main():
 
 def home():
     st.title("Welcome to CR7 Games! (Suuuuui!!!)")
-    st.header("Shoutout to Byteme")
-    st.subheader('Message from Byteme: "Miracles are statistical improbabilities. And fate is an illusion humanity uses to comfort itself in the dark. There are no absolutes in life, save death.” - Amie Kaufman')
+    st.header("Shoutout to Skydagoat")
+    st.subheader('Message from Skydagoat: "hop off')
     st.subheader("if you want a shoutout tell me in live chat during 1st & 3rd period (you can also put a custom message)")
    # st.image(r, width=300)
     st.write("Before you start using the website read the notes in the information tab for information on how to use the website")
