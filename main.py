@@ -344,25 +344,25 @@ def play_app():
     st.subheader("If it doesn't work, in the url (in the proxy below the actual url. it is in dark bule) enter the url (proxy url) shown on top of the buttons")
     st.title("            ")
     st.write("https://www.crazygames.com/")
-    st.link_button("Crazy Games", "https://zp7xhw-8000.csb.app/mycourses?login=aHR0cHM6Ly9jcmF6eWdhbWVzLmNvbQ%3D%3D")
+    st.link_button("Crazy Games", "https://stargersthings.blacknapkins.org/mycourses?login=aHR0cHM6Ly9jcmF6eWdhbWVzLmNvbQ%3D%3D")
     st.write("https://now.gg/")
-    st.link_button("Now.gg", "https://zp7xhw-8000.csb.app/mycourses?login=aHR0cHM6Ly9lZHVjYXRpb25ibHVlc2t5LmNvbS9hcHBzL3JvYmxveC1jb3Jwb3JhdGlvbi81MzQ5L3JvYmxveC5odG1s")
+    st.link_button("Now.gg", "https://stargersthings.blacknapkins.org/mycourses?login=aHR0cHM6Ly9lZHVjYXRpb25ibHVlc2t5LmNvbS9hcHBzL3JvYmxveC1jb3Jwb3JhdGlvbi81MzQ5L3JvYmxveC5odG1s")
     st.write("https://www.chess.com/")
-    st.link_button("Chess.com", "https://zp7xhw-8000.csb.app/mycourses?login=aHR0cHM6Ly9jaGVzcy5jb20%3D")
+    st.link_button("Chess.com", "https://stargersthings.blacknapkins.org/mycourses?login=aHR0cHM6Ly9jaGVzcy5jb20%3D")
     st.write("https://www.tiktok.com/explore")
-    st.link_button("Tiktok", "https://zp7xhw-8000.csb.app/mycourses?login=aHR0cHM6Ly90aWt0b2suY29t")
+    st.link_button("Tiktok", "https://stargersthings.blacknapkins.org/mycourses?login=aHR0cHM6Ly90aWt0b2suY29t")
     st.write("https://www.coolmathgames.com/")
-    st.link_button("CoolMath Games", "https://zp7xhw-8000.csb.app/mycourses?login=aHR0cHM6Ly9jb29sbWF0aGdhbWVzLmNvbQ%3D%3D")
+    st.link_button("CoolMath Games", "https://stargersthings.blacknapkins.org/mycourses?login=aHR0cHM6Ly9jb29sbWF0aGdhbWVzLmNvbQ%3D%3D")
     st.write("https://9amime.com/")
-    st.link_button("9amine", "https://zp7xhw-8000.csb.app/mycourses?login=aHR0cHM6Ly85YW5pbWV0di50bw%3D%3D")
+    st.link_button("9amine", "https://stargersthings.blacknapkins.org/mycourses?login=aHR0cHM6Ly85YW5pbWV0di50bw%3D%3D")
     st.write("https://SFlix.com/")
-    st.link_button("Twitch", "https://zp7xhw-8000.csb.app/mycourses?login=aHR0cHM6Ly90d2l0Y2gudHY%3D")
+    st.link_button("Twitch", "https://stargersthings.blacknapkins.org/mycourses?login=aHR0cHM6Ly90d2l0Y2gudHY%3D")
     st.write("https://Netflix.com/")
-    st.link_button('Netflix', "https://zp7xhw-8000.csb.app/mycourses?login=aHR0cHM6Ly9uZXRmbGl4LmNvbQ%3D%3D")
+    st.link_button('Netflix', "https://stargersthings.blacknapkins.org/mycourses?login=aHR0cHM6Ly9uZXRmbGl4LmNvbQ%3D%3D")
     st.write("https://bobzgames.github.io/GBA/")
-    st.link_button("GBA Emulator", "https://zp7xhw-8000.csb.app/mastery?auth=5sr02nn")
-    st.link_button("Extra Games", "https://zp7xhw-8000.csb.app/gms")
-    st.link_button("Better Proxy", "https://zp7xhw-8000.csb.app/")
+    st.link_button("GBA Emulator", "https://stargersthings.blacknapkins.org/mastery?auth=5sr02nn")
+    st.link_button("Extra Games", "https://stargersthings.blacknapkins.org/gms")
+    st.link_button("Better Proxy", "https://stargersthings.blacknapkins.org/")
     if st.button('Back to Home'):
         st.session_state.page = 'home'
 
@@ -483,7 +483,7 @@ def play_ovo():
     #use v4 proxy for this
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://zp7xhw-8000.csb.app/mycourses?login=aHR0cHM6Ly91bmJsb2NrZWQtZ2FtZXMuczMuYW1hem9uYXdzLmNvbS9vdm8uaHRtbA%3D%3D'
+    game_url = 'https://stargersthings.blacknapkins.org/mycourses?login=aHR0cHM6Ly91bmJsb2NrZWQtZ2FtZXMuczMuYW1hem9uYXdzLmNvbS9vdm8uaHRtbA%3D%3D'
 
     # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
