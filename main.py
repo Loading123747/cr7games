@@ -100,6 +100,7 @@ def home():
     st.title("Welcome to CR7 Games! (Suuuuui!!!)")
     st.header("Shoutout to Skydagoat")
     st.subheader('Message from Skydagoat: "hop off')
+    st.subheader("use this link for another game site: https://loading123747.github.io/logan-edition/")
     st.subheader("if you want a shoutout tell me in live chat during 1st & 3rd period (you can also put a custom message)")
    # st.image(r, width=300)
     st.write("Before you start using the website read the notes in the information tab for information on how to use the website")
@@ -167,7 +168,7 @@ def play_Wing():
     st.title('Play Basketball Stars')
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://kz66t2-8080.csb.app/hvtrs8%2F-bcsievbclnsvaps%2Fgcmg.ko-/'
+    game_url = 'https://kz66t2-8080.csb.app/service/hvtrs8%2F-bcsievbclnsvaps%2Fgcmg.ko-/'
 
     # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
@@ -208,7 +209,7 @@ def play_geo():
     st.write("use this link while I try to fix the mouse locking problem: https://5vs4st-8080.csb.app/service/hvtrs8%2F-gpaln%7B-eaoeq.aoo%2F/ ")
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://kz66t2-8080.csb.app/hvtrs8%2F-gpaln%7B-eaoeq.aoo%2F/'
+    game_url = 'https://kz66t2-8080.csb.app/service/hvtrs8%2F-gpaln%7B-eaoeq.aoo%2F/'
 
     # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
@@ -229,7 +230,7 @@ def play_soccer():
     st.write("The display is small, sorry about that but if you can play like that go for it but I recommend fullscreen it")
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://kz66t2-8080.csb.app/hvtrs8%2F-tecmfdiaicl%2Cgktju%60.ko-gcmgs-smcaep-qkklns%2Fewrm-aur%2F/'
+    game_url = 'https://kz66t2-8080.csb.app/service/hvtrs8%2F-tecmfdiaicl%2Cgktju%60.ko-gcmgs-smcaep-qkklns%2Fewrm-aur%2F/'
 
     # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
@@ -248,7 +249,7 @@ def play_soccer2():
     st.write("The display is small, sorry about that but if you can play like that go for it but I recommend fullscreen it")
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://kz66t2-8080.csb.app/hvtrs8%2F-tecmfdiaicl%2Cgktju%60.ko-gcmgs-smcaep-qkklns%2Fwmrnd%2Fcwp-/'
+    game_url = 'https://kz66t2-8080.csb.app/service/hvtrs8%2F-tecmfdiaicl%2Cgktju%60.ko-gcmgs-smcaep-qkklns%2Fwmrnd%2Fcwp-/'
 
     # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
@@ -267,7 +268,7 @@ def play_cup():
     st.write("The display is small, sorry about that but if you can play like that go for it but I recommend fullscreen it")
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://kz66t2-8080.csb.app/hvtrs8%2F-tecmfdiaicl%2Cgktju%60.ko-gcmgs-a%2Fsoanl%2Fwmrnd%2Fcwp-/'
+    game_url = 'https://kz66t2-8080.csb.app/service/hvtrs8%2F-tecmfdiaicl%2Cgktju%60.ko-gcmgs-a%2Fsoanl%2Fwmrnd%2Fcwp-/'
 
     # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
@@ -282,15 +283,16 @@ def play_cup():
         st.session_state.page = 'home'
 
 def play_level():
-    #Greatsword
+    # Greatsword
     st.title('Play Escape Road')
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://kz66t2-8080.csb.app/hvtrs8%2F-gpaln%7B-eaoeq.aoo%2Fgsaare%2Frmaf/'
+    game_url = 'https://kz66t2-8080.csb.app/service/hvtrs8%2F-gpaln%7B-eaoeq.aoo%2Fgsaare%2Frmaf/'
 
-    # HTML code to embed the game in an iframe with fullscreen option
+    # HTML code to embed the game in an iframe with pointer lock
     iframe_code = f'''
-    <iframe src="{game_url}" width="100%" height="800px" style="border:none;" allowfullscreen></iframe>
+    <iframe src="{game_url}" width="100%" height="800px" style="border:none;" 
+    allow="fullscreen; gamepad; pointer-lock"></iframe>
     '''
 
     # Render the iframe in the Streamlit app
@@ -300,14 +302,13 @@ def play_level():
     if st.button('Back to Home'):
         st.session_state.page = 'home'
 
-
 def play_basket():
     #Greatsword
     st.title('Play Galdihoppers')
     st.write("The display is small, sorry about that but if you can play like that go for it but I recommend fullscreen it")
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://kz66t2-8080.csb.app/hvtrs8%2F-tecmfdiaicl%2Cgktju%60.ko-gcmgs-gnafijorpgrq%2F/'
+    game_url = 'https://kz66t2-8080.csb.app/service/hvtrs8%2F-tecmfdiaicl%2Cgktju%60.ko-gcmgs-gnafijorpgrq%2F/'
 
     # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
