@@ -206,7 +206,7 @@ def play_geo():
     #Greatsword
     st.title('Play Granny')
     st.write("Click the England flag for english then click play")
-    st.write("use this link while I try to fix the mouse locking problem: https://5vs4st-8080.csb.app/service/hvtrs8%2F-gpaln%7B-eaoeq.aoo%2F/ ")
+    st.write("use this link while I try to fix the mouse locking problem: https://kz66t2-8080.csb.app/service/hvtrs8%2F-gpaln%7B-eaoeq.aoo%2F/ ")
 
     # URL of the game or webpage you want to embed
     game_url = 'https://kz66t2-8080.csb.app/service/hvtrs8%2F-gpaln%7B-eaoeq.aoo%2F/'
