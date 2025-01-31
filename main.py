@@ -18,6 +18,7 @@ PAGES = {
     "Play Escape Road": "level",
     "Play Level Devil": "trial",
     "Play Gladihoppers ": "basket",
+    "Play GBA Retro Games": 'gba',
     "Play Drive Mad": "mad",
     "Play Crossy Road": "cross",
     "Play Retro Bowl": "retro",
@@ -98,6 +99,8 @@ def main():
         play_cluster()
     elif st.session_state.page == "ovo":
         play_ovo()
+    elif st.session_state.page == 'gba':
+        play_gba()
 
 def home():
     st.title("Welcome to CR7 Games! (Suuuuui!!!)")
@@ -343,6 +346,15 @@ def play_basket():
     # Button to go back to the home page
     if st.button('Back to Home'):
         st.session_state.page = 'home'
+
+def play_gba():
+    #hammerhead
+    st.title('Play gba')
+    st.subheader("I would put the game but it would be hard to play so go to this link: https://geography.history-calender.awiki.hal.se/dff45477ef0d473297b87ff5d46683f8/_rhse1BF2://XV5qFatfc.WCwGIW.mj/Ell/")
+    # Button to go back to the home page
+    if st.button('Back to Home'):
+        st.session_state.page = 'home'
+
 def mad():
     st.title('Play Drive Mad')
 
