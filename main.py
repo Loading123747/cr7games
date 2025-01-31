@@ -110,7 +110,7 @@ def home():
     st.write("Before you start using the website read the notes in the information tab for information on how to use the website")
     st.write("Click the button below to open proxy!")
     #proxy greatsword
-    st.link_button("Proxy", "https://5vs4st-8080.csb.app/")
+    st.link_button("Proxy", "https://geography.history-calender.awiki.hal.se/")
     st.link_button("Live Chat", "https://gydy8y-5000.csb.app/")
 
 def play_2048():
@@ -364,25 +364,15 @@ def mad():
 
 def play_app():
     st.title('Apps')
-    st.subheader("If it doesn't work, in the url (in the proxy below the actual url. it is in dark bule) enter the url (proxy url) shown on top of the buttons")
     st.title("            ")
-    st.write("https://www.crazygames.com/")
-    st.link_button("Crazy Games", "https://use.heatmypool.com/mycourses?login=aHR0cHM6Ly9jcmF6eWdhbWVzLmNvbQ%3D%3D")
-    st.write("https://now.gg/")
-    st.link_button("Now.gg", "https://use.heatmypool.com/mycourses?login=aHR0cHM6Ly9lZHVjYXRpb25ibHVlc2t5LmNvbS9hcHBzL3JvYmxveC1jb3Jwb3JhdGlvbi81MzQ5L3JvYmxveC5odG1s")
-    st.write("https://www.chess.com/")
-    st.link_button("Chess.com", "https://use.heatmypool.com/mycourses?login=aHR0cHM6Ly9jaGVzcy5jb20%3D")
-    st.write("https://www.tiktok.com/explore")
-    st.link_button("Tiktok", "https://use.heatmypool.com/mycourses?login=aHR0cHM6Ly90aWt0b2suY29t")
-    st.write("https://www.coolmathgames.com/")
-    st.link_button("CoolMath Games", "https://use.heatmypool.com/mycourses?login=aHR0cHM6Ly9jb29sbWF0aGdhbWVzLmNvbQ%3D%3D")
-    st.write("https://9amime.com/")
+    st.link_button("Crazy Games", "https://geography.history-calender.awiki.hal.se/c745aaaa619c45f6b9a1833478ab4063/_rhsP8AQk://ml2.fmf44KQlBL.Uaq/")
+    st.link_button("Now.gg", "https://geography.history-calender.awiki.hal.se/c745aaaa619c45f6b9a1833478ab4063/_rhsP8AQk://FKdmomfhL.8Y2/")
+    st.link_button("Chess.com", "https://geography.history-calender.awiki.hal.se/c745aaaa619c45f6b9a1833478ab4063/_rhsP8AQk://ml2.f8QYe.8Y2/")
+    st.link_button("Tiktok", "https://geography.history-calender.awiki.hal.se/c745aaaa619c45f6b9a1833478ab4063/_rhsP8AQk://ml2.lABem~.AeY/~c4qH3Y")
+    st.link_button("CoolMath Games", "https://geography.history-calender.awiki.hal.se/c745aaaa619c45f6b9a1833478ab4063/_rhsP8AQk://ml2.f~5o5wqooAe~-.5H4/")
     st.link_button("9amine", "https://use.heatmypool.com/mycourses?login=aHR0cHM6Ly85YW5pbWV0di50bw%3D%3D")
-    st.write("https://SFlix.com/")
     st.link_button("Twitch", "https://use.heatmypool.com/mycourses?login=aHR0cHM6Ly90d2l0Y2gudHY%3D")
-    st.write("https://Netflix.com/")
     st.link_button('Netflix', "https://use.heatmypool.com/mycourses?login=aHR0cHM6Ly9uZXRmbGl4LmNvbQ%3D%3D")
-    st.write("https://bobzgames.github.io/GBA/")
     st.link_button("GBA Emulator", "https://use.heatmypool.com/mastery?auth=5sr02nn")
     st.link_button("Extra Games", "https://use.heatmypool.com/gms")
     if st.button('Back to Home'):
