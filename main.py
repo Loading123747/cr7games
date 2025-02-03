@@ -106,7 +106,7 @@ def main():
 def home():
     st.title("Welcome to CR7 Games! (Suuuuui!!!)")
     st.header("Shoutout to Skydagoat")
-    st.subheader('Message from Skydagoat: "hop off')
+    st.subheader('Message from Raghav: "be a sigma not a beta"')
     st.subheader("live chat fixed")
     st.subheader("use this link for another game site: https://loading123747.github.io/logan-edition/")
     st.subheader("if you want a shoutout tell me in live chat during 1st & 3rd period (you can also put a custom message)")
