@@ -19,6 +19,7 @@ PAGES = {
     "Play Level Devil": "trial",
     "Play Gladihoppers ": "basket",
     "Play GBA Retro Games": 'gba',
+    "Play Roblox": 'roblox',
     "Play Drive Mad": "mad",
     "Play Crossy Road": "cross",
     "Play Retro Bowl": "retro",
@@ -350,7 +351,15 @@ def play_basket():
 def play_gba():
     #hammerhead
     st.title('Play gba')
-    st.subheader("I would put the game but it would be hard to play so go to this link: https://geography.history-calender.awiki.hal.se/dff45477ef0d473297b87ff5d46683f8/_rhse1BF2://XV5qFatfc.WCwGIW.mj/Ell/")
+    st.subheader("I would put the game but it would be hard to play so go to this link: https://geography.social-calender.awiki.surfnet.ca/c9c8e9ff0c2b436482387eb150ee47be/_rhsAzjq6://l7gyqrO8Q.~bVvF~.Kp/J55/")
+    # Button to go back to the home page
+    if st.button('Back to Home'):
+        st.session_state.page = 'home'
+
+def play_roblox():
+    #hammerhead
+    st.title('Play Roblox')
+    st.subheader("I would put the game but it would be hard to play so go to this link: https://geography.social-calender.awiki.surfnet.ca/c9c8e9ff0c2b436482387eb150ee47be/_rhs314Tq://znfd6dRQa.1vS/")
     # Button to go back to the home page
     if st.button('Back to Home'):
         st.session_state.page = 'home'
@@ -377,15 +386,15 @@ def mad():
 def play_app():
     st.title('Apps')
     st.title("            ")
-    st.link_button("Crazy Games", "https://geography.history-calender.awiki.hal.se/c745aaaa619c45f6b9a1833478ab4063/_rhsP8AQk://ml2.fmf44KQlBL.Uaq/")
-    st.link_button("Now.gg", "https://geography.history-calender.awiki.hal.se/c745aaaa619c45f6b9a1833478ab4063/_rhsP8AQk://FKdmomfhL.8Y2/")
-    st.link_button("Chess.com", "https://geography.history-calender.awiki.hal.se/c745aaaa619c45f6b9a1833478ab4063/_rhsP8AQk://ml2.f8QYe.8Y2/")
-    st.link_button("Tiktok", "https://geography.history-calender.awiki.hal.se/c745aaaa619c45f6b9a1833478ab4063/_rhsP8AQk://ml2.lABem~.AeY/~c4qH3Y")
-    st.link_button("CoolMath Games", "https://geography.history-calender.awiki.hal.se/c745aaaa619c45f6b9a1833478ab4063/_rhsP8AQk://ml2.f~5o5wqooAe~-.5H4/")
-    st.link_button("9amine", "https://use.heatmypool.com/mycourses?login=aHR0cHM6Ly85YW5pbWV0di50bw%3D%3D")
-    st.link_button("Twitch", "https://use.heatmypool.com/mycourses?login=aHR0cHM6Ly90d2l0Y2gudHY%3D")
-    st.link_button('Netflix', "https://use.heatmypool.com/mycourses?login=aHR0cHM6Ly9uZXRmbGl4LmNvbQ%3D%3D")
-    st.link_button("GBA Emulator", "https://use.heatmypool.com/mastery?auth=5sr02nn")
+    st.link_button("Crazy Games", "https://geography.social-calender.awiki.surfnet.ca/c9c8e9ff0c2b436482387eb150ee47be/_rhsAzjq6://ahY.kakpp7qh~V.ReB/")
+    st.link_button("Now.gg", "https://geography.social-calender.awiki.surfnet.ca/c9c8e9ff0c2b436482387eb150ee47be/_rhsAzjq6://g74aOakPV.zKY/")
+    st.link_button("Chess.com", "https://geography.social-calender.awiki.surfnet.ca/c9c8e9ff0c2b436482387eb150ee47be/_rhsAzjq6://ahY.kzqKQ.zKY/")
+    st.link_button("Tiktok", "https://geography.social-calender.awiki.surfnet.ca/c9c8e9ff0c2b436482387eb150ee47be/_rhsAzjq6://ahY.hj~Qab.jQK/")
+    st.link_button("CoolMath Games", "https://geography.social-calender.awiki.surfnet.ca/c9c8e9ff0c2b436482387eb150ee47be/_rhsAzjq6://ahY.kbvOv0BOOjQbF.v-p/")
+    st.link_button("9amine", "https://geography.social-calender.awiki.surfnet.ca/c9c8e9ff0c2b436482387eb150ee47be/_rhsAzjq6://Zl78~0Ky.yY/")
+    st.link_button("Twitch", "https://geography.social-calender.awiki.surfnet.ca/c9c8e9ff0c2b436482387eb150ee47be/_rhsAzjq6://ahY.hP6Qq~.e-/")
+    st.link_button('Netflix', "https://geography.social-calender.awiki.surfnet.ca/c9c8e9ff0c2b436482387eb150ee47be/_rhsAzjq6://ahY.R0KzbR-.6PQ/")
+    st.link_button("GBA Emulator", "https://geography.social-calender.awiki.surfnet.ca/c9c8e9ff0c2b436482387eb150ee47be/_rhsAzjq6://l7gyqrO8Q.~bVvF~.Kp/J55/")
     st.link_button("Extra Games", "https://use.heatmypool.com/gms")
     if st.button('Back to Home'):
         st.session_state.page = 'home'
