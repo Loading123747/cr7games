@@ -115,7 +115,7 @@ def home():
     st.write("Click the button below to open proxy!")
     #proxy greatsword
     st.link_button("Proxy", "https://geography.history-calender.awiki.hal.se/")
-    st.link_button("Live Chat", "https://gydy8y-5000.csb.app/")
+    st.link_button("Live Chat", "https://rhk4r3-5000.csb.app/")
 
 def play_2048():
     st.title('Play 2048')
@@ -176,7 +176,7 @@ def play_Wing():
     st.title('Play Basketball Stars')
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://5vs4st-8080.csb.app/service/hvtrs8%2F-bcsievbclnsvaps%2Fgcmg.ko-/'
+    game_url = 'https://k8z7mp-8080.csb.app/service/hvtrs8%2F-bcsievbclnsvaps%2Fgcmg.ko-/'
 
     # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
@@ -217,7 +217,7 @@ def play_geo():
     st.write("use this link while I try to fix the mouse locking problem: https://5vs4st-8080.csb.app/service/hvtrs8%2F-gpaln%7B-eaoeq.aoo%2F/ ")
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://5vs4st-8080.csb.app/service/hvtrs8%2F-gpaln%7B.eaoeq%2Fercnly%2Follkng%2F/'
+    game_url = 'https://k8z7mp-8080.csb.app/service/hvtrs8%2F-gpaln%7B.eaoeq%2Fercnly%2Follkng%2F/'
 
     # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
@@ -236,7 +236,7 @@ def play_life():
     st.title('Play Bitlife')
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://5vs4st-8080.csb.app/service/hvtrs8%2F-bktnidemnnile%2Cgktju%60.ko-pna%7B.jtol/'
+    game_url = 'https://k8z7mp-8080.csb.app/service/hvtrs8%2F-bktnidemnnile%2Cgktju%60.ko-pna%7B.jtol/'
 
     # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
@@ -256,7 +256,7 @@ def play_soccer():
     st.write("The display is small, sorry about that but if you can play like that go for it but I recommend fullscreen it")
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://5vs4st-8080.csb.app/service/hvtrs8%2F-tecmfdiaicl%2Cgktju%60.ko-gcmgs-smcaep-qkklns%2Fewrm-aur%2F/'
+    game_url = 'https://k8z7mp-8080.csb.app/service/hvtrs8%2F-tecmfdiaicl%2Cgktju%60.ko-gcmgs-smcaep-qkklns%2Fewrm-aur%2F/'
 
     # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
@@ -275,7 +275,7 @@ def play_soccer2():
     st.write("The display is small, sorry about that but if you can play like that go for it but I recommend fullscreen it")
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://5vs4st-8080.csb.app/service/hvtrs8%2F-tecmfdiaicl%2Cgktju%60.ko-gcmgs-smcaep-qkklns%2Fwmrnd%2Fcwp-/'
+    game_url = 'https://k8z7mp-8080.csb.app/service/hvtrs8%2F-tecmfdiaicl%2Cgktju%60.ko-gcmgs-smcaep-qkklns%2Fwmrnd%2Fcwp-/'
 
     # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
@@ -294,7 +294,7 @@ def play_cup():
     st.write("The display is small, sorry about that but if you can play like that go for it but I recommend fullscreen it")
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://5vs4st-8080.csb.app/service/hvtrs8%2F-tecmfdiaicl%2Cgktju%60.ko-gcmgs-a%2Fsoanl%2Fwmrnd%2Fcwp-/'
+    game_url = 'https://k8z7mp-8080.csb.app/service/hvtrs8%2F-tecmfdiaicl%2Cgktju%60.ko-gcmgs-a%2Fsoanl%2Fwmrnd%2Fcwp-/'
 
     # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
@@ -313,7 +313,7 @@ def play_level():
     st.title('Play Escape Road')
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://5vs4st-8080.csb.app/service/hvtrs8%2F-gpaln%7B-eaoeq.aoo%2Fgsaare%2Frmaf/'
+    game_url = 'https://k8z7mp-8080.csb.app/service/hvtrs8%2F-gpaln%7B-eaoeq.aoo%2Fgsaare%2Frmaf/'
 
     # HTML code to embed the game in an iframe with pointer lock
     iframe_code = f'''
@@ -334,7 +334,7 @@ def play_basket():
     st.write("The display is small, sorry about that but if you can play like that go for it but I recommend fullscreen it")
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://5vs4st-8080.csb.app/service/hvtrs8%2F-tecmfdiaicl%2Cgktju%60.ko-gcmgs-gnafijorpgrq%2F/'
+    game_url = 'https://k8z7mp-8080.csb.app/service/hvtrs8%2F-tecmfdiaicl%2Cgktju%60.ko-gcmgs-gnafijorpgrq%2F/'
 
     # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
@@ -535,7 +535,7 @@ def play_cluster():
     st.title('Play Cluster Rush')
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://5vs4st-8080.csb.app/service/hvtrs8%2F-cnuqtgrpuqh%2Cim%2F/'
+    game_url = 'https://k8z7mp-8080.csb.app/service/hvtrs8%2F-cnuqtgrpuqh%2Cim%2F/'
 
     # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
