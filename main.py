@@ -138,7 +138,7 @@ def play_Slither():
     st.title('Play Slope')
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://k8z7mp-8080.csb.app/service/hvtrs8%2F-snoreeaoeko%2Cgktju%60.ko-/'
+    game_url = 'https://c5jpxz-8080.csb.app/service/hvtrs8%2F-snoreeaoeko%2Cgktju%60.ko-/'
 
     # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
