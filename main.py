@@ -108,11 +108,11 @@ def main():
     elif st.session_state.page == 'roblox':
         play_roblox()
     elif st.session_state.page == 'coupons':
-        play_coupons
+        play_coupons()
     elif st.session_state.page == 'gba':
-        play_gba
+        play_gba()
     elif st.session_state.page == 'football':
-        play_football
+        play_football()
 
 def home():
     st.title("Welcome to CR7 Games! (Suuuuui!!!)")
@@ -585,9 +585,10 @@ def play_roblox():
     #rammerhead
     st.title('Play Roblox')
     st.subheader("You will have a 5 minute session and before it ends use the coupons in the coupons page to get the coupons and then put it in for 20 mins of gameplay")
+    st.subheader("I can't put the game in because it will be hard to play so use the link below")
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://geography.social-calender.awiki.surfnet.ca/aec977d649334b42be998012615636e2/_rhsYH7rj://8q-XPXASE.Hl6/'
+    st.write('https://geography.social-calender.awiki.surfnet.ca/aec977d649334b42be998012615636e2/_rhsYH7rj://8q-XPXASE.Hl6/')
 
     # Button to go back to the home page
     if st.button('Back to Home'):
