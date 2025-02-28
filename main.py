@@ -597,8 +597,10 @@ def play_roblox():
 def play_gba():
     #rammerhead
     st.title('Play GBA Games')
+    st.subheader("I can't put the game in because it will be hard to play so use the link below")
+
     # URL of the game or webpage you want to embed
-    game_url = 'https://geography.social-calender.awiki.surfnet.ca/aec977d649334b42be998012615636e2/_rhsYH7rj://nq8LryP~m.3zEQs3.lW/aJJ/'
+    st.write('https://geography.social-calender.awiki.surfnet.ca/aec977d649334b42be998012615636e2/_rhsYH7rj://nq8LryP~m.3zEQs3.lW/aJJ/')
 
     # Button to go back to the home page
     if st.button('Back to Home'):
