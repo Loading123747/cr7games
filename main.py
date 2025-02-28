@@ -27,8 +27,11 @@ PAGES = {
     "Play Uno": "uno",
     "Play OvO": "ovo",
     "Play Cluster Rush": "cluster",
+    "Play Roblox": 'roblox',
+    "Play GBA Games": 'gba',
     "Mathway(for help with math)": "math",
     "Studentontask unblocker":"student",
+    "Coupons": 'coupons',
     "Information": "info",
     "Apps": "app",
     "Your Games": "dev"
@@ -101,6 +104,12 @@ def main():
         play_ovo()
     elif st.session_state.page == 'over':
         play_over()
+    elif st.session_state.page == 'roblox':
+        play_roblox()
+    elif st.session_state.page == 'coupons':
+        play_coupons
+    elif st.session_state.page == 'gba':
+        play_gba
 
 def home():
     st.title("Welcome to CR7 Games! (Suuuuui!!!)")
@@ -175,7 +184,7 @@ def play_Wing():
     st.title('Play Basketball Stars')
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://v2vhzd-8080.csb.app/service/hvtrs8%2F-bcsievbclnsvaps%2Fgcmg.ko-/'
+    game_url = 'https://74tkfp-8080.csb.app/service/hvtrs8%2F-bcsievbclnsvaps%2Fgcmg.ko-/'
 
     # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
@@ -216,7 +225,7 @@ def play_geo():
     st.write("use this link while I try to fix the mouse locking problem: https://v2vhzd-8080.csb.app/service/hvtrs8%2F-gpaln%7B-eaoeq.aoo%2F/ ")
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://v2vhzd-8080.csb.app/service/hvtrs8%2F-gpaln%7B.eaoeq%2Fercnly%2Follkng%2F/'
+    game_url = 'https://74tkfp-8080.csb.app/service/hvtrs8%2F-gpaln%7B.eaoeq%2Fercnly%2Follkng%2F/'
 
     # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
@@ -235,7 +244,7 @@ def play_life():
     st.title('Play Bitlife')
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://v2vhzd-8080.csb.app/service/hvtrs8%2F-bktnidemnnile%2Cgktju%60.ko-pna%7B.jtol/'
+    game_url = 'https://74tkfp-8080.csb.app/service/hvtrs8%2F-bktnidemnnile%2Cgktju%60.ko-pna%7B.jtol/'
 
     # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
@@ -255,7 +264,7 @@ def play_soccer():
     st.write("The display is small, sorry about that but if you can play like that go for it but I recommend fullscreen it")
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://v2vhzd-8080.csb.app/service/hvtrs8%2F-tecmfdiaicl%2Cgktju%60.ko-gcmgs-smcaep-qkklns%2Fewrm-aur%2F/'
+    game_url = 'https://74tkfp-8080.csb.app/service/hvtrs8%2F-tecmfdiaicl%2Cgktju%60.ko-gcmgs-smcaep-qkklns%2Fewrm-aur%2F/'
 
     # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
@@ -274,7 +283,7 @@ def play_soccer2():
     st.write("The display is small, sorry about that but if you can play like that go for it but I recommend fullscreen it")
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://v2vhzd-8080.csb.app/service/hvtrs8%2F-tecmfdiaicl%2Cgktju%60.ko-gcmgs-smcaep-qkklns%2Fwmrnd%2Fcwp-/'
+    game_url = 'https://74tkfp-8080.csb.app/service/hvtrs8%2F-tecmfdiaicl%2Cgktju%60.ko-gcmgs-smcaep-qkklns%2Fwmrnd%2Fcwp-/'
 
     # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
@@ -293,7 +302,7 @@ def play_cup():
     st.write("The display is small, sorry about that but if you can play like that go for it but I recommend fullscreen it")
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://v2vhzd-8080.csb.app/service/hvtrs8%2F-tecmfdiaicl%2Cgktju%60.ko-gcmgs-a%2Fsoanl%2Fwmrnd%2Fcwp-/'
+    game_url = 'https://74tkfp-8080.csb.app/service/hvtrs8%2F-tecmfdiaicl%2Cgktju%60.ko-gcmgs-a%2Fsoanl%2Fwmrnd%2Fcwp-/'
 
     # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
@@ -312,7 +321,7 @@ def play_level():
     st.title('Play Escape Road')
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://v2vhzd-8080.csb.app/service/hvtrs8%2F-gpaln%7B-eaoeq.aoo%2Fgsaare%2Frmaf/'
+    game_url = 'https://74tkfp-8080.csb.app/service/hvtrs8%2F-gpaln%7B-eaoeq.aoo%2Fgsaare%2Frmaf/'
 
     # HTML code to embed the game in an iframe with pointer lock
     iframe_code = f'''
@@ -333,7 +342,7 @@ def play_basket():
     st.write("The display is small, sorry about that but if you can play like that go for it but I recommend fullscreen it")
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://v2vhzd-8080.csb.app/service/hvtrs8%2F-tecmfdiaicl%2Cgktju%60.ko-gcmgs-gnafijorpgrq%2F/'
+    game_url = 'https://74tkfp-8080.csb.app/service/hvtrs8%2F-tecmfdiaicl%2Cgktju%60.ko-gcmgs-gnafijorpgrq%2F/'
 
     # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
@@ -367,27 +376,15 @@ def mad():
 
 def play_app():
     st.title('Apps')
-    st.subheader("If it doesn't work, in the url (in the proxy below the actual url. it is in dark bule) enter the url (proxy url) shown on top of the buttons")
     st.title("            ")
-    st.write("https://www.crazygames.com/")
-    st.link_button("Crazy Games", "https://use.heatmypool.com/mycourses?login=aHR0cHM6Ly9jcmF6eWdhbWVzLmNvbQ%3D%3D")
-    st.write("https://now.gg/")
-    st.link_button("Now.gg", "https://use.heatmypool.com/mycourses?login=aHR0cHM6Ly9lZHVjYXRpb25ibHVlc2t5LmNvbS9hcHBzL3JvYmxveC1jb3Jwb3JhdGlvbi81MzQ5L3JvYmxveC5odG1s")
-    st.write("https://www.chess.com/")
-    st.link_button("Chess.com", "https://use.heatmypool.com/mycourses?login=aHR0cHM6Ly9jaGVzcy5jb20%3D")
-    st.write("https://www.tiktok.com/explore")
-    st.link_button("Tiktok", "https://use.heatmypool.com/mycourses?login=aHR0cHM6Ly90aWt0b2suY29t")
-    st.write("https://www.coolmathgames.com/")
-    st.link_button("CoolMath Games", "https://use.heatmypool.com/mycourses?login=aHR0cHM6Ly9jb29sbWF0aGdhbWVzLmNvbQ%3D%3D")
-    st.write("https://9amime.com/")
-    st.link_button("9amine", "https://use.heatmypool.com/mycourses?login=aHR0cHM6Ly85YW5pbWV0di50bw%3D%3D")
-    st.write("https://SFlix.com/")
-    st.link_button("Twitch", "https://use.heatmypool.com/mycourses?login=aHR0cHM6Ly90d2l0Y2gudHY%3D")
-    st.write("https://Netflix.com/")
-    st.link_button('Netflix', "https://use.heatmypool.com/mycourses?login=aHR0cHM6Ly9uZXRmbGl4LmNvbQ%3D%3D")
-    st.write("https://bobzgames.github.io/GBA/")
-    st.link_button("GBA Emulator", "https://use.heatmypool.com/mastery?auth=5sr02nn")
-    st.link_button("Extra Games", "https://use.heatmypool.com/gms")
+    st.link_button("Crazy Games", "https://geography.social-calender.awiki.surfnet.ca/aec977d649334b42be998012615636e2/_rhsYH7rj://XB6.AXAWWqrB3E.94c/")
+    st.link_button("Now.gg", "https://geography.social-calender.awiki.surfnet.ca/aec977d649334b42be998012615636e2/_rhsYH7rj://7q6.r~/")
+    st.link_button("Chess.com", "https://geography.social-calender.awiki.surfnet.ca/aec977d649334b42be998012615636e2/_rhsYH7rj://XB6.AHrlm.Hl6/")
+    st.link_button("Tiktok", "https://geography.social-calender.awiki.surfnet.ca/aec977d649334b42be998012615636e2/_rhsYH7rj://XB6.B73mXz.7ml/zCWcGIl")
+    st.link_button("CoolMath Games", "https://geography.social-calender.awiki.surfnet.ca/aec977d649334b42be998012615636e2/_rhsYH7rj://XB6.AzQPQtcPP7mzs.QGW/")
+    st.link_button("9amine", "https://geography.social-calender.awiki.surfnet.ca/aec977d649334b42be998012615636e2/_rhsYH7rj://Inq~3tlL.L6/")
+    st.link_button("Twitch", "https://geography.social-calender.awiki.surfnet.ca/aec977d649334b42be998012615636e2/_rhsYH7rj://XB6.BSjmr3.4G/")
+    st.link_button('Netflix', "https://geography.social-calender.awiki.surfnet.ca/aec977d649334b42be998012615636e2/_rhsYH7rj://XB6.9tlHz9G.jSm/")
     if st.button('Back to Home'):
         st.session_state.page = 'home'
 
@@ -489,7 +486,7 @@ def play_over():
     st.title('Play Getting Over It')
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://v2vhzd-8080.csb.app/service/hvtrs8%2F-snoreeaoeko%2Cgktju%60.ko-dgtcin%2Feevtkne-mvgr%2Fiv.jtol/'
+    game_url = 'https://74tkfp-8080.csb.app/service/hvtrs8%2F-snoreeaoeko%2Cgktju%60.ko-dgtcin%2Feevtkne-mvgr%2Fiv.jtol/'
 
     # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
@@ -547,7 +544,7 @@ def play_cluster():
     st.title('Play Cluster Rush')
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://v2vhzd-8080.csb.app/service/hvtrs8%2F-cnuqtgrpuqh%2Cim%2F/'
+    game_url = 'https://74tkfp-8080.csb.app/service/hvtrs8%2F-cnuqtgrpuqh%2Cim%2F/'
 
     # HTML code to embed the game in an iframe with fullscreen option
     iframe_code = f'''
@@ -556,6 +553,28 @@ def play_cluster():
 
     # Render the iframe in the Streamlit app
     components.html(iframe_code, height=800)
+
+    # Button to go back to the home page
+    if st.button('Back to Home'):
+        st.session_state.page = 'home'
+
+def play_roblox():
+    #rammerhead
+    st.title('Play Roblox')
+    st.subheader("You will have a 5 minute session and before it ends use the coupons in the coupons page to get the coupons and then put it in for 20 mins of gameplay")
+
+    # URL of the game or webpage you want to embed
+    game_url = 'https://geography.social-calender.awiki.surfnet.ca/aec977d649334b42be998012615636e2/_rhsYH7rj://8q-XPXASE.Hl6/'
+
+    # Button to go back to the home page
+    if st.button('Back to Home'):
+        st.session_state.page = 'home'
+
+def play_gba():
+    #rammerhead
+    st.title('Play GBA Games')
+    # URL of the game or webpage you want to embed
+    game_url = 'https://geography.social-calender.awiki.surfnet.ca/aec977d649334b42be998012615636e2/_rhsYH7rj://nq8LryP~m.3zEQs3.lW/aJJ/'
 
     # Button to go back to the home page
     if st.button('Back to Home'):
@@ -593,6 +612,15 @@ javascript:fetch("https://raw.githubusercontent.com/Loading123747/studentontask/
     img = Image.open("unblocker.jpg")
     st.image(img, width = 1000)
     # Button to go back to the home page
+    if st.button('Back to Home'):
+        st.session_state.page = 'home'
+
+def play_coupons():
+    st.header("This is only if you are playing Roblox. If one coupons work then try another coupons")
+    st.write("TLJTFVGY")
+    st.write("ORYHXZ9W")
+    st.write("3AJODUXV")
+    st.write("1KRGFJYT")
     if st.button('Back to Home'):
         st.session_state.page = 'home'
 
