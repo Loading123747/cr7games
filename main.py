@@ -588,7 +588,7 @@ def play_roblox():
     st.subheader("I can't put the game in because it will be hard to play so use the link below")
 
     # URL of the game or webpage you want to embed
-    st.write('https://geography.social-calender.awiki.surfnet.ca/aec977d649334b42be998012615636e2/_rhsYH7rj://8q-XPXASE.Hl6/')
+    st.write('https://geography.social-calender.awiki.surfnet.ca/b323e77479b24d7ea4a548a34db75721/_rhsk3wNV://w52.Ng/')
 
     # Button to go back to the home page
     if st.button('Back to Home'):
