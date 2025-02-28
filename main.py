@@ -15,6 +15,7 @@ PAGES = {
     "Play A Small World Cup": "cup",
     "Play Soccer Skills World Cup": "soccer2",
     "Play Soccer Skills Euro Cup": "soccer",
+    "Play Football Legends 2019": "football",
     "Play Escape Road": "level",
     "Play Level Devil": "trial",
     "Play Gladihoppers ": "basket",
@@ -110,6 +111,8 @@ def main():
         play_coupons
     elif st.session_state.page == 'gba':
         play_gba
+    elif st.session_state.page == 'football':
+        play_football
 
 def home():
     st.title("Welcome to CR7 Games! (Suuuuui!!!)")
@@ -296,6 +299,26 @@ def play_soccer2():
     # Button to go back to the home page
     if st.button('Back to Home'):
         st.session_state.page = 'home'
+
+def play_football():
+    #Greatsword
+    st.title('Play Football Legends 2019')
+
+    # URL of the game or webpage you want to embed
+    game_url = 'https://c5jpxz-8080.csb.app/web/_aHR0cHM6Ly93d3cuc25va2lkby5jb20=_/game/football-legends-2019'
+
+    # HTML code to embed the game in an iframe with fullscreen option
+    iframe_code = f'''
+    <iframe src="{game_url}" width="100%" height="800px" style="border:none;" allowfullscreen></iframe>
+    '''
+
+    # Render the iframe in the Streamlit app
+    components.html(iframe_code, height=800)
+
+    # Button to go back to the home page
+    if st.button('Back to Home'):
+        st.session_state.page = 'home'
+
 def play_cup():
     #Greatsword
     st.title('Play A Small World Cup')
