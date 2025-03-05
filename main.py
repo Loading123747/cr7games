@@ -108,11 +108,11 @@ def main():
     elif st.session_state.page == 'roblox':
         play_roblox()
     elif st.session_state.page == 'coupons':
-        play_coupons
+        play_coupons()
     elif st.session_state.page == 'gba':
-        play_gba
+        play_gba()
     elif st.session_state.page == 'football':
-        play_football
+        play_football()
 
 def home():
     st.title("Welcome to CR7 Games! (Suuuuui!!!)")
@@ -583,12 +583,12 @@ def play_cluster():
         st.session_state.page = 'home'
 
 def play_roblox():
-    #rammerhead
+    #v4
     st.title('Play Roblox')
     st.subheader("You will have a 5 minute session and before it ends use the coupons in the coupons page to get the coupons and then put it in for 20 mins of gameplay")
 
     # URL of the game or webpage you want to embed
-    game_url = 'https://geography.social-calender.awiki.surfnet.ca/aec977d649334b42be998012615636e2/_rhsYH7rj://8q-XPXASE.Hl6/'
+    st.write('https://xtyhf5-8000.csb.app/mycourses?login=aHR0cHM6Ly9lZHVjYXRpb25ibHVlc2t5LmNvbS9hcHBzL3JvYmxveC1jb3Jwb3JhdGlvbi81MzQ5L3JvYmxveC5odG1s')
 
     # Button to go back to the home page
     if st.button('Back to Home'):
@@ -598,7 +598,7 @@ def play_gba():
     #rammerhead
     st.title('Play GBA Games')
     # URL of the game or webpage you want to embed
-    game_url = 'https://geography.social-calender.awiki.surfnet.ca/aec977d649334b42be998012615636e2/_rhsYH7rj://nq8LryP~m.3zEQs3.lW/aJJ/'
+    st.write('https://xtyhf5-8000.csb.app/mycourses?login=aHR0cHM6Ly9ib2J6Z2FtZXMuZ2l0aHViLmlvL0dCQS8%3D')
 
     # Button to go back to the home page
     if st.button('Back to Home'):
