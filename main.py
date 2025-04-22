@@ -116,8 +116,8 @@ def main():
 
 def home():
     st.title("Welcome to CR7 Games! (Suuuuui!!!)")
-    st.header("Shoutout to Rithwik the GOAT")
-    st.subheader('Message from Rithwik the GOAT: "Advik is gay')
+    st.header("Shoutout to Isiasis")
+    st.subheader('Message from Isaisis: "There ks a day keeps the blackies away')
     st.subheader("live chat fixed")
     st.subheader("use this link for another game site: https://loading123747.github.io/logan-edition/")
     st.subheader("if you want a shoutout tell me in live chat during 1st & 3rd period (you can also put a custom message)")
@@ -125,7 +125,7 @@ def home():
     st.write("Before you start using the website read the notes in the information tab for information on how to use the website")
     st.write("Click the button below to open proxy!")
     #proxy greatsword
-     st.link_button("Proxy", "https://2cpqfh-8000.csb.app/")
+    st.link_button("Proxy", "https://2cpqfh-8000.csb.app/")
     st.link_button("Live Chat", "https://vqfnpk-5000.csb.app/")
 
 def play_2048():
