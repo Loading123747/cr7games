@@ -126,7 +126,7 @@ def home():
     st.write("Click the button below to open proxy!")
     #proxy greatsword
     st.link_button("Proxy", "https://2cpqfh-8000.csb.app/")
-    st.link_button("Live Chat", "https://vqfnpk-5000.csb.app/")
+    st.link_button("Live Chat", "https://p6q25v-5000.csb.app/")
 
 def play_2048():
     st.title('Play 2048')
